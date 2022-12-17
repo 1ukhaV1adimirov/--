@@ -6,8 +6,9 @@ ls = [
 Z = 0
 for q, s in ls:
     print(q)
-    answer = input().lower()
-    if answer == a:
+    print(s)
+    answer = input()
+    if answer == s:
         print("достойн")
         Z=Z+1
     else:
@@ -17,6 +18,3 @@ if Z==3:
 if Z==2:
     print("Красава")
 if Z==1:
-    print("Эхх ничего страшного")
-else:
-    print("По новой Павел Николаевич")
